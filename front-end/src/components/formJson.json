@@ -1,0 +1,58 @@
+ {
+    "form": {
+        "sections": [
+            {
+                "order": 1,
+                "sections_title": "COMPANY DETAILS AND GENERAL INFORMATION",
+                "fields": [
+                    {
+                        "name":"name",
+                        "label":"Name Of Company",
+                        "required":false,
+                        "type":"String"
+
+                    },
+                    {
+                        "name":"address",
+                        "label":"Address",
+                        "required":false,
+                        "type":"String"
+
+
+                    },
+                    {
+                        "name":"telephone_number",
+                        "label":"Telephone Number",
+                        "required":false,
+                        "type":"Number"
+                    },
+                    {
+                        "name":"fax_number",
+                        "label":"Fax Number",
+                        "required":false,
+                        "type":"Number"
+
+                    },
+                    {
+                        "name":"website_address",
+                        "label":"Website Address",
+                        "required":false,
+                        "type":"String"
+                    },
+                    {
+                        "name":"email_company",
+                        "label":"Direct E-mail Adress of the Company Representative",
+                        "required":false,
+                        "type":"String"
+                    },
+                    {
+                        "name":"name_and_title",
+                        "label":"Name and Title of Company Representative ",
+                        "required":false,
+                        "type":"String"
+                    }
+                ]
+            }
+        ]
+    }
+}
